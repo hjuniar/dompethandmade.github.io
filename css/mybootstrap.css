@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+.container-logo {
+  text-align: center;
+  padding: 30px;
+}
+
+.banner-wrapper {
+  background-color: #262626;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container-hero-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.container-hero {
+  margin: 0 auto;
+}
+
+.img-hero-link {
+  display: block;
+  text-align: center;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 350px;
+  height: 320px;
+  top: 95px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0 20px 0 20px;
+}
+
+.hero-text-box .title {
+  text-transform: uppercase;
+  font-family: oswald;
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+.hero-text-box .description{
+  padding-bottom: 30px;
+}
+
+.hero-text-box.large .title {
+  font-size: 50px;
+  padding-top: 75px;
+}
+
+.hero-text-box.large .description {
+  font-size: 16px;
+}
+
+.btn {
+  color: #262626;
+  background-color: transparent;
+  border-color: #262626;
+  border-width: 2px;
+  font-family: oswald;
+  text-transform: uppercase;
+}
+
+.footer-wrapper {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.copyright {
+    margin: 10px 0;
+    color: gray;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.banner-wrapper span {
+  font-size: 20px;
+  font-family: oswald;
+  text-transform: uppercase;
+}
+
+.banner-wrapper {
+  padding: 2px;
+}
+
+.navbar-menu {
+  font-family: oswald;
+}
+
+.navbar-menu .dropdown-menu > li > a {
+  padding: 8px 14px;
+  font-size: 15px;
+}
+
+.dropdown-toggle {
+  color: black;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.text-center {
+  font-family: oswald;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+}
+
+.thumbnail {
+  border: none;
+}
+
+.text-thumbnail {
+  color: black;
+  text-align: center;
+  font-family: oswald;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 5px;
+}
+
+.breadcrumb {
+  background: none;
+}
+
+.breadcrumb a {
+  color: black;
+}
+
+.bold-text {
+  font-family: oswald;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.text-thumbnail-list {
+  color: black;
+  text-align: center;;
+  font-family: oswald;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.pagination .active a {
+  background-color: black;
+  border-color: black;
+
+}
+
+.sort-by {
+  font-family: oswald;
+  width: 100%;
+  background-color: #262626;
+  color: #fff;
+  padding: 6px 10px;
+  margin-bottom: 10px;
+}
+
+.detail-wallet h3 {
+  font-family: oswald;
+  text-transform: uppercase;
+
+}

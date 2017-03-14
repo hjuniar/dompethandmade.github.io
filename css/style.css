@@ -1,0 +1,288 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+}
+
+.judul {
+    margin: 0;
+    padding: 0 0 0 0;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 50px;
+}
+
+
+ul.menu li {
+    display: inline-block;
+
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-family: oswald;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+p {
+    color: black;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #262626;
+}
+
+.biggest-container{
+    background: white;
+}
+
+.image-container{
+    text-align: center;
+}
+
+.nav{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.nav ul li  {
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    background-color: white;
+}
+.nav ul li a {
+    color: black;
+    font-family: oswald;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: coral;
+}
+
+.judulweb {
+    display: block;
+    margin: 40px auto 5px auto;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.blockitem{
+    padding: 2px 0;
+    background-color: #262626;
+    color: #fff;
+    text-align: center;
+}
+
+.blockitem span {
+    color: white;
+    font-family: oswald;
+    text-transform: uppercase;
+}
+
+
+.column4 {
+    float: left;
+    width: 25%;
+
+}
+
+.column4 a {
+    text-transform: uppercase;
+    color: black;
+    font-family: oswald;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.column4 a:hover {
+    color: coral;
+} 
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+span {
+color: black;
+    font-family: oswald;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.hero {
+    overflow:hidden;
+    position: relative;
+}
+
+.hero .description-box {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 80px;
+    right: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: oswald;
+    padding: 0 20px 0 20px;
+    
+}
+
+.hero .description-box h3 {
+    text-transform:uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 40px 30px 0 30px;
+}
+
+.hero .description-box p {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+ul.links-hero {
+    background:none;
+    text-align: center;
+}
+
+ul.links-hero a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 130px;
+    height: 44px;
+    min-width: 130px;
+    padding: 5px 20px 5px 20px;
+    
+}
+ul.links-hero li {
+    list-style: none;
+}
+
+
+.hero .description-box-left {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 80px;
+    left: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: oswald;
+    padding: 0 20px 0 20px;
+    
+}
+
+.hero .description-box-left h3 {
+    text-transform:uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 40px 30px 0 30px;
+}
+
+.hero .description-box-left p {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.column3 {
+    float: left;
+    width: 33%;
+
+}
+
+.column3 a {
+    text-transform: uppercase;
+    color: black;
+    font-family: oswald;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+
+.column3 a:hover {
+    color: coral;
+} 
+
+.footer-container{
+    text-align: center;
+    padding-top: 10px;   
+}
+
+.fa-stack {
+    padding: 10px;
+}
+
+.copyright {
+    margin: 10px 0;
+    color: gray;
+    font-family: helvetica;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.product-list {
+    list-style: none;
+}
+
+.product-list .item {
+    float: left;
+    padding: 10px;
+}
+
+.product-list .item a {
+    text-decoration: none;
+}
+
+.product-list .item img,
+.product-list .item span {
+    display: block;
+    text-align: center;
+}
